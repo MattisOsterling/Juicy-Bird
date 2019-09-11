@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    
 
     public GameObject player;
     public Rigidbody fysik;
@@ -17,23 +18,25 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject NERIPE;
     public float tid;
     public AudioSource ljud;
+    /*
     public Text points;
     public float pointsIgen;
     public float pointsPerSecond;
+    */
 
     // Start is called before the first frame update
     void Start()
     {
         yta = gameObject.transform.GetSiblingIndex();
         tid = 3;
-        pointsPerSecond = 3f;
+        //pointsPerSecond = 10f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        points.text = "Score: " + pointsIgen.ToString("F0");
-        pointsIgen += pointsPerSecond * Time.deltaTime;
+        //points.text = "Score: " + pointsIgen.ToString("F0");
+        //pointsIgen += pointsPerSecond * Time.deltaTime;
         yta += tid;
         tid -= Time.deltaTime;
         if (tid <= 0)
@@ -90,7 +93,7 @@ public class NewBehaviourScript : MonoBehaviour
             if (lose == false)
             {
                 
-                pointsIgen += 1 * Time.time;
+                //pointsIgen += 1 * Time.time;
             }
         }
         for (int i = 0; i < ajj.Count; i++)

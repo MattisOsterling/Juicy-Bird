@@ -55,7 +55,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/matilda.osterling/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
