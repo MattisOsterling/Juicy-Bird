@@ -18,20 +18,22 @@ public class NewBehaviourScript : MonoBehaviour
     public float tid;
     public AudioSource ljud;
     public Text points;
-    public int pointsIgen;
-
+    public float pointsIgen;
+    public float pointsPerSecond;
 
     // Start is called before the first frame update
     void Start()
     {
         yta = gameObject.transform.GetSiblingIndex();
         tid = 3;
+        pointsPerSecond = 3f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        points.text = "Skor: " + pointsIgen;
+        points.text = "Score: " + pointsIgen.ToString("F0");
+        pointsIgen += pointsPerSecond * Time.deltaTime;
         yta += tid;
         tid -= Time.deltaTime;
         if (tid <= 0)
@@ -71,7 +73,7 @@ public class NewBehaviourScript : MonoBehaviour
                     yta = yta / yta;
                 }
                 ljud.Play();
-                SceneManager.LoadScene("SampleScene");
+                Invoke("RestartScene", 4);
             }
             
             fysik.constraints = RigidbodyConstraints.FreezePosition;
@@ -87,7 +89,8 @@ public class NewBehaviourScript : MonoBehaviour
         {
             if (lose == false)
             {
-                //pointsIgen += 1 * Time.deltaTime;
+                
+                pointsIgen += 1 * Time.time;
             }
         }
         for (int i = 0; i < ajj.Count; i++)
@@ -123,6 +126,10 @@ public class NewBehaviourScript : MonoBehaviour
 
     }
 
+    public void RestartScene()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.transform.tag == "DONTTOUCH")
