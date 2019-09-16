@@ -14,8 +14,8 @@ public class NewBehaviourScript : MonoBehaviour
     public float yta;
     public bool start;
     public List<GameObject> ajj;
-    public GameObject pipetack;
-    public GameObject NERIPE;
+    public GameObject pipeDown;
+    public GameObject pipeUp;
     public float tid;
     public AudioSource ljud;
     /*
@@ -45,12 +45,13 @@ public class NewBehaviourScript : MonoBehaviour
             int r = Random.Range(0, 2);
             if (r == 0)
             {
-                typ = Instantiate(pipetack, new Vector3(3, 2.5f, 0), Quaternion.identity);
+                typ = Instantiate(pipeDown, new Vector3(3, 2f, 0), Quaternion.identity);
+
             }
             if (r == 1)
             {
                 yta = transform.position.y;
-                typ = Instantiate(NERIPE, new Vector3(3, 0.6f, 0), Quaternion.identity);
+                typ = Instantiate(pipeUp, new Vector3(3, 1f, 0), Quaternion.identity);
             }
             ajj.Add(typ);
             tid = 3;
