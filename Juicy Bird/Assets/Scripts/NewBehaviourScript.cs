@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    
 
     public GameObject player;
     public Rigidbody fysik;
@@ -18,10 +19,11 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject NERIPE;
     public float tid;
     public AudioSource ljud;
-
+    /*
     public Text points;
     public float pointsIgen;
     public float pointsPerSecond;
+    */
 
     public List<GameObject> backGrounds;
     public GameObject backGroundtest;
@@ -31,7 +33,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         yta = gameObject.transform.GetSiblingIndex();
         tid = 3;
-        pointsPerSecond = 3f;
+        //pointsPerSecond = 10f;
     }
 
     // Update is called once per frame
