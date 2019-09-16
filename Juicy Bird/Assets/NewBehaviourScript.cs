@@ -12,15 +12,20 @@ public class NewBehaviourScript : MonoBehaviour
     public bool lose;
     public float yta;
     public bool start;
+
     public List<GameObject> ajj;
     public GameObject pipetack;
     public GameObject NERIPE;
     public float tid;
     public AudioSource ljud;
+
     public Text points;
     public float pointsIgen;
     public float pointsPerSecond;
 
+    public List<GameObject> backGrounds;
+    public GameObject backGroundtest;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -33,26 +38,30 @@ public class NewBehaviourScript : MonoBehaviour
     void Update()
     {
         points.text = "Score: " + pointsIgen.ToString("F0");
-        pointsIgen += pointsPerSecond * Time.deltaTime;
+        
         yta += tid;
         tid -= Time.deltaTime;
         if (tid <= 0)
         {
             GameObject typ = new GameObject();
+            GameObject bGAmount = new GameObject();
             int r = Random.Range(0, 2);
             if (r == 0)
             {
-                typ = Instantiate(pipetack, new Vector3(3, 2.5f, 0), Quaternion.identity);
+                typ = Instantiate(pipetack, new Vector3(4, 2.5f, 0), Quaternion.identity);
+                //bGAmount = Instantiate(backGroundtest, new Vector3(0, 2, 0), Quaternion.identity);
             }
             if (r == 1)
             {
                 yta = transform.position.y;
-                typ = Instantiate(NERIPE, new Vector3(3, 0.6f, 0), Quaternion.identity);
+                typ = Instantiate(NERIPE, new Vector3(4, 0.6f, 0), Quaternion.identity);
+                //bGAmount = Instantiate(backGroundtest, new Vector3(0, 2, 0), Quaternion.identity);
             }
             ajj.Add(typ);
+            //backGrounds.Add(bGAmount);
             tid = 3;
         }
-
+        
         if (start == true)
         {
             if (lose != true)
@@ -62,6 +71,7 @@ public class NewBehaviourScript : MonoBehaviour
                     fysik.AddForce(Vector3.up * 250);
                 }
             }
+            pointsIgen += pointsPerSecond * Time.deltaTime;
         }
 
         if (lose == true)
@@ -78,6 +88,7 @@ public class NewBehaviourScript : MonoBehaviour
             
             fysik.constraints = RigidbodyConstraints.FreezePosition;
             Debug.Log("lost");
+            pointsPerSecond = 0;
         }
 
         if (ajj.Count > 10)
@@ -85,19 +96,22 @@ public class NewBehaviourScript : MonoBehaviour
             Destroy(ajj[0]);
             ajj.RemoveAt(0);
         }
-        if (start == true)
-        {
-            if (lose == false)
-            {
-                
-                pointsIgen += 1 * Time.time;
-            }
-        }
         for (int i = 0; i < ajj.Count; i++)
         {
 
             ajj[i].transform.position -= new Vector3(1 * Time.deltaTime, 0, 0);
         }
+
+        /*if (backGrounds.Count > 3)
+        {
+            Destroy(backGrounds[0]);
+            backGrounds.RemoveAt(0);
+        }
+        for (int i = 0; i < backGrounds.Count; i++)
+        {
+            backGrounds[i].transform.position -= new Vector3(1 * Time.deltaTime, 0, 0);
+        }*/
+        
 
         if (start == false)
         {
