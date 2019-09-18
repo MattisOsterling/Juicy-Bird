@@ -18,25 +18,17 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject pipeUp;
     public float tid;
     public AudioSource ljud;
-    /*
-    public Text points;
-    public float pointsIgen;
-    public float pointsPerSecond;
-    */
-
-    // Start is called before the first frame update
+ 
     void Start()
     {
         yta = gameObject.transform.GetSiblingIndex();
         tid = 3;
-        //pointsPerSecond = 10f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //points.text = "Score: " + pointsIgen.ToString("F0");
-        //pointsIgen += pointsPerSecond * Time.deltaTime;
+
         yta += tid;
         tid -= Time.deltaTime;
         if (tid <= 0)
@@ -51,7 +43,7 @@ public class NewBehaviourScript : MonoBehaviour
             if (r == 1)
             {
                 yta = transform.position.y;
-                typ = Instantiate(pipeUp, new Vector3(3, 1f, 0), Quaternion.identity);
+                typ = Instantiate(pipeUp, new Vector3(3, .95f, 0), Quaternion.identity);
             }
             ajj.Add(typ);
             tid = 3;
@@ -63,7 +55,9 @@ public class NewBehaviourScript : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
+                    
                     fysik.AddForce(Vector3.up * 250);
+                    
                 }
             }
         }
@@ -76,12 +70,13 @@ public class NewBehaviourScript : MonoBehaviour
                 {
                     yta = yta / yta;
                 }
+                CameraShake.Shake(1);
                 ljud.Play();
                 Invoke("RestartScene", 4);
             }
             
-            fysik.constraints = RigidbodyConstraints.FreezePosition;
-            Debug.Log("lost");
+            fysik.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+            GameObject.Find("GameObject").GetComponent<Rigidbody>().detectCollisions = false;            
         }
 
         if (ajj.Count > 10)
@@ -114,7 +109,6 @@ public class NewBehaviourScript : MonoBehaviour
             {
                 fysik.constraints = RigidbodyConstraints.None;
                 fysik.constraints = RigidbodyConstraints.FreezeRotation;
-                Debug.Log("started");
             }
             
         }
