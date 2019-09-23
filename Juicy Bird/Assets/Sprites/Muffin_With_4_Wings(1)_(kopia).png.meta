@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: 291aedc0adfe52048bdda44cd500a2c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5287895025598850291
+    second: Muffin_With_4_Wings(1)_(kopia)_0
+  - first:
+      213: -480095189167874682
+    second: Muffin_With_4_Wings(1)_(kopia)_1
+  - first:
+      213: 810705208347368972
+    second: Muffin_With_4_Wings(1)_(kopia)_2
+  - first:
+      213: 3871937743255050865
+    second: Muffin_With_4_Wings(1)_(kopia)_3
+  - first:
+      213: -8871291055258834085
+    second: Muffin_With_4_Wings(1)_(kopia)_4
+  - first:
+      213: 2713770964429932503
+    second: Muffin_With_4_Wings(1)_(kopia)_5
+  - first:
+      213: -6630525732187041050
+    second: Muffin_With_4_Wings(1)_(kopia)_6
+  - first:
+      213: -8489787649231510513
+    second: Muffin_With_4_Wings(1)_(kopia)_7
+  - first:
+      213: -2946032109249793848
+    second: Muffin_With_4_Wings(1)_(kopia)_8
+  - first:
+      213: -6988267302234541006
+    second: Muffin_With_4_Wings(1)_(kopia)_9
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Muffin_With_4_Wings(1)_(kopia)_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 31
+        width: 53
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5453756, y: 0.3612653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9566e7fbf0fbf44a2e7d4c5d0834d7
+      internalID: 5287895025598850291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin_With_4_Wings(1)_(kopia)_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 149
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8db44d515882894cacc4d12cb3bc132
+      internalID: -480095189167874682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin_With_4_Wings(1)_(kopia)_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 148
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90302d3728d8524a927e0eba38e5901
+      internalID: 810705208347368972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin_With_4_Wings(1)_(kopia)_3
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 152
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9f97c07acbffd47a2f691c848cc0de
+      internalID: 3871937743255050865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin_With_4_Wings(1)_(kopia)_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 261
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dab38922b770d4aad6cc62a86e3546
+      internalID: -8871291055258834085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin_With_4_Wings(1)_(kopia)_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 257
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2e043e009f5d14daa41f8d31ac3cc8
+      internalID: 2713770964429932503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin_With_4_Wings(1)_(kopia)_6
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 253
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c212688defb25b0499867186fcb89b1e
+      internalID: -6630525732187041050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin_With_4_Wings(1)_(kopia)_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 384
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ee6aabe345a7040b38f88c135806d3
+      internalID: -8489787649231510513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin_With_4_Wings(1)_(kopia)_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 386
+        width: 56
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591bb74864b865242be16a5d058af4f6
+      internalID: -2946032109249793848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muffin_With_4_Wings(1)_(kopia)_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 384
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edb874fcfedec143b555ae8ef563ca5
+      internalID: -6988267302234541006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c1771ff99544c5b44aa1d2f16ba2248f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -470,15 +470,15 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 28fde0b6b2526e14882f92624284aba9,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: c4d05773fa76acb48816df28aac9cf7d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: af7beb58e5a7654439d77902cebbf6fd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.351
   m_Pitch: 1
   Loop: 0
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 159
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -1508,7 +1508,7 @@ Animator:
   m_GameObject: {fileID: 1597952192}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d6e06b0c989492e4db5d3cc742da0b2b, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1555,7 +1555,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8614775168057542203, guid: 0bb090b769e932744885dd5e46e60ea1,
+  m_Sprite: {fileID: 5287895025598850291, guid: 291aedc0adfe52048bdda44cd500a2c7,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

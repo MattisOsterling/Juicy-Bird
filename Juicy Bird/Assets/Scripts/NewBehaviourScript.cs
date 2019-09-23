@@ -5,9 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class NewBehaviourScript : MonoBehaviour
-{
-    
-
+{   
     public GameObject player;
     public Rigidbody fysik;
     public bool lose;
@@ -21,9 +19,6 @@ public class NewBehaviourScript : MonoBehaviour
     public AudioSource ljud;
     public float bGroundTime;
 
-
-
-    // Start is called before the first frame update
     void Start()
     {
         yta = gameObject.transform.GetSiblingIndex();
@@ -40,6 +35,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         if (start == true)
         {
+            //If a certain amount of time has transpired, it will randomly choose between 0 or 1, and instantiate a pipeUp or pipeDown
             if (tid <= 0)
             {
                 GameObject typ = new GameObject(); 
@@ -58,6 +54,7 @@ public class NewBehaviourScript : MonoBehaviour
                 tid = 1.5f;
             }
 
+            //If the player hasn't lost, they will be able to move as usual
             if (lose != true)
             {
                 if (Input.GetKeyDown(KeyCode.Space))
@@ -81,7 +78,7 @@ public class NewBehaviourScript : MonoBehaviour
                 }
                 CameraShake.Shake(1);
                 ljud.Play();
-                Invoke("RestartScene", 4);
+                Invoke("RestartScene", 2.5f);
             }
             
             fysik.constraints = RigidbodyConstraints.FreezePosition;
