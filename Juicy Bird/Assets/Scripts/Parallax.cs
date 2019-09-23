@@ -43,12 +43,12 @@ public class Parallax : MonoBehaviour
 
         if (GameObject.Find("Player").GetComponent<NewBehaviourScript>().bGroundTime <= 0)
         {
-            Instantiate(backGroundtest, new Vector3(6,2,0), Quaternion.identity);
-            GameObject.Find("Player").GetComponent<NewBehaviourScript>().bGroundTime = 5;
+            Instantiate(backGroundtest, new Vector3(6.33f,1.3f,1), Quaternion.identity);
+            GameObject.Find("Player").GetComponent<NewBehaviourScript>().bGroundTime = 6.385f;
         }
 
         backGroundtest.transform.position -= new Vector3(1 * Time.deltaTime, 0, 0);
-        if (backGroundtest.transform.position.x < GameObject.Find("Player").transform.position.x - 5.2)
+        if (backGroundtest.transform.position.x < GameObject.Find("Player").transform.position.x - 7f)
         {
             Destroy(gameObject);
         }
