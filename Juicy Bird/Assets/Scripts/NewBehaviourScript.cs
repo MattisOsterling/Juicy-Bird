@@ -13,44 +13,51 @@ public class NewBehaviourScript : MonoBehaviour
     public bool lose;
     public float yta;
     public bool start;
+
     public List<GameObject> ajj;
     public GameObject pipeDown;
     public GameObject pipeUp;
     public float tid;
     public AudioSource ljud;
- 
+    public float bGroundTime;
+
+
+
+    // Start is called before the first frame update
     void Start()
     {
         yta = gameObject.transform.GetSiblingIndex();
         tid = 3;
+        bGroundTime = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-
         yta += tid;
         tid -= Time.deltaTime;
-        if (tid <= 0)
-        {
-            GameObject typ = new GameObject();
-            int r = Random.Range(0, 2);
-            if (r == 0)
-            {
-                typ = Instantiate(pipeDown, new Vector3(3, 2f, 0), Quaternion.identity);
-
-            }
-            if (r == 1)
-            {
-                yta = transform.position.y;
-                typ = Instantiate(pipeUp, new Vector3(3, .95f, 0), Quaternion.identity);
-            }
-            ajj.Add(typ);
-            tid = 3;
-        }
+        bGroundTime -= Time.deltaTime;
 
         if (start == true)
         {
+            if (tid <= 0)
+            {
+                GameObject typ = new GameObject(); 
+                int r = Random.Range(0, 2);
+                if (r == 0)
+                {
+                    typ = Instantiate(pipetack, new Vector3(4, 2.5f, 0), Quaternion.identity);
+                }
+                if (r == 1)
+                {
+                    yta = transform.position.y;
+                    typ = Instantiate(NERIPE, new Vector3(4, 0.6f, 0), Quaternion.identity);
+                }
+                ajj.Add(typ);
+
+                tid = 3;
+            }
+
             if (lose != true)
             {
                 if (Input.GetKeyDown(KeyCode.Space))
@@ -60,6 +67,8 @@ public class NewBehaviourScript : MonoBehaviour
                     
                 }
             }
+
+            GameObject.Find("Canvas").GetComponent<Score>().pointsPerSecond = 5;
         }
 
         if (lose == true)
@@ -75,22 +84,15 @@ public class NewBehaviourScript : MonoBehaviour
                 Invoke("RestartScene", 4);
             }
             
-            fysik.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
-            GameObject.Find("GameObject").GetComponent<Rigidbody>().detectCollisions = false;            
+            fysik.constraints = RigidbodyConstraints.FreezePosition;
+            Debug.Log("lost");
+            GameObject.Find("Canvas").GetComponent<Score>().pointsPerSecond = 0;
         }
 
         if (ajj.Count > 10)
         {
             Destroy(ajj[0]);
             ajj.RemoveAt(0);
-        }
-        if (start == true)
-        {
-            if (lose == false)
-            {
-                
-                //pointsIgen += 1 * Time.time;
-            }
         }
         for (int i = 0; i < ajj.Count; i++)
         {
