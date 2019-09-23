@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 264864085}
   - component: {fileID: 264864086}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -383,11 +383,7 @@ MonoBehaviour:
   NERIPE: {fileID: 742445567}
   tid: 0
   ljud: {fileID: 264864085}
-  points: {fileID: 193982102}
-  pointsIgen: 0
-  pointsPerSecond: 0
-  backGrounds: []
-  backGroundtest: {fileID: 1381721125}
+  bGroundTime: 0
 --- !u!4 &264864082
 Transform:
   m_ObjectHideFlags: 0
@@ -1249,6 +1245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1381721127}
+  - component: {fileID: 1381721128}
   - component: {fileID: 1381721126}
   m_Layer: 0
   m_Name: Bakgrund
@@ -1314,12 +1311,27 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381721125}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.12908353, y: 2, z: 0}
+  m_LocalPosition: {x: 5.23, y: 2, z: 0}
   m_LocalScale: {x: 1.42, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1381721128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381721125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c8fa53c1cefb54b97edff9c096b11c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backGrounds: []
+  backGroundtest: {fileID: 1381721125}
+  hasMadeNewBG: 0
 --- !u!1 &1597952192
 GameObject:
   m_ObjectHideFlags: 0

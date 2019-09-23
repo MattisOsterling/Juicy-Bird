@@ -19,53 +19,45 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject NERIPE;
     public float tid;
     public AudioSource ljud;
-    /*
-    public Text points;
-    public float pointsIgen;
-    public float pointsPerSecond;
-    */
+    public float bGroundTime;
 
-    public List<GameObject> backGrounds;
-    public GameObject backGroundtest;
-   
+
+
     // Start is called before the first frame update
     void Start()
     {
         yta = gameObject.transform.GetSiblingIndex();
         tid = 3;
-        //pointsPerSecond = 10f;
+        bGroundTime = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        points.text = "Score: " + pointsIgen.ToString("F0");
-        
         yta += tid;
         tid -= Time.deltaTime;
-        if (tid <= 0)
-        {
-            GameObject typ = new GameObject();
-            GameObject bGAmount = new GameObject();
-            int r = Random.Range(0, 2);
-            if (r == 0)
-            {
-                typ = Instantiate(pipetack, new Vector3(4, 2.5f, 0), Quaternion.identity);
-                //bGAmount = Instantiate(backGroundtest, new Vector3(0, 2, 0), Quaternion.identity);
-            }
-            if (r == 1)
-            {
-                yta = transform.position.y;
-                typ = Instantiate(NERIPE, new Vector3(4, 0.6f, 0), Quaternion.identity);
-                //bGAmount = Instantiate(backGroundtest, new Vector3(0, 2, 0), Quaternion.identity);
-            }
-            ajj.Add(typ);
-            //backGrounds.Add(bGAmount);
-            tid = 3;
-        }
-        
+        bGroundTime -= Time.deltaTime;
+
         if (start == true)
         {
+            if (tid <= 0)
+            {
+                GameObject typ = new GameObject(); 
+                int r = Random.Range(0, 2);
+                if (r == 0)
+                {
+                    typ = Instantiate(pipetack, new Vector3(4, 2.5f, 0), Quaternion.identity);
+                }
+                if (r == 1)
+                {
+                    yta = transform.position.y;
+                    typ = Instantiate(NERIPE, new Vector3(4, 0.6f, 0), Quaternion.identity);
+                }
+                ajj.Add(typ);
+
+                tid = 3;
+            }
+
             if (lose != true)
             {
                 if (Input.GetKeyDown(KeyCode.Space))
@@ -73,7 +65,8 @@ public class NewBehaviourScript : MonoBehaviour
                     fysik.AddForce(Vector3.up * 250);
                 }
             }
-            pointsIgen += pointsPerSecond * Time.deltaTime;
+
+            GameObject.Find("Canvas").GetComponent<Score>().pointsPerSecond = 5;
         }
 
         if (lose == true)
@@ -90,7 +83,7 @@ public class NewBehaviourScript : MonoBehaviour
             
             fysik.constraints = RigidbodyConstraints.FreezePosition;
             Debug.Log("lost");
-            pointsPerSecond = 0;
+            GameObject.Find("Canvas").GetComponent<Score>().pointsPerSecond = 0;
         }
 
         if (ajj.Count > 10)
@@ -103,17 +96,6 @@ public class NewBehaviourScript : MonoBehaviour
 
             ajj[i].transform.position -= new Vector3(1 * Time.deltaTime, 0, 0);
         }
-
-        /*if (backGrounds.Count > 3)
-        {
-            Destroy(backGrounds[0]);
-            backGrounds.RemoveAt(0);
-        }
-        for (int i = 0; i < backGrounds.Count; i++)
-        {
-            backGrounds[i].transform.position -= new Vector3(1 * Time.deltaTime, 0, 0);
-        }*/
-        
 
         if (start == false)
         {
