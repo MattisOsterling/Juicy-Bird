@@ -1592,6 +1592,7 @@ GameObject:
   - component: {fileID: 1804214570}
   - component: {fileID: 1804214569}
   - component: {fileID: 1804214571}
+  - component: {fileID: 1804214572}
   m_Layer: 0
   m_Name: Juicyness bakgrund_0
   m_TagString: Untagged
@@ -1677,3 +1678,22 @@ MonoBehaviour:
   backGrounds: []
   backGroundtest: {fileID: 1804214568}
   hasMadeNewBG: 0
+--- !u!95 &1804214572
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804214568}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9dad6497d7287ae4aaeb9c8a2b318fb6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
