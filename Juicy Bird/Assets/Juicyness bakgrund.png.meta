@@ -1,0 +1,703 @@
+fileFormatVersion: 2
+guid: 6c33fe87218b72b4a9425de3b266ee28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 114991540812600887
+    second: Juicyness bakgrund_0
+  - first:
+      213: -3199517053972329619
+    second: Juicyness bakgrund_1
+  - first:
+      213: 6321057610824242899
+    second: Juicyness bakgrund_2
+  - first:
+      213: -6326281728205269896
+    second: Juicyness bakgrund_3
+  - first:
+      213: -1847347061967397469
+    second: Juicyness bakgrund_4
+  - first:
+      213: 3121596210917964430
+    second: Juicyness bakgrund_5
+  - first:
+      213: -3007442405079350202
+    second: Juicyness bakgrund_6
+  - first:
+      213: 5653926137437541993
+    second: Juicyness bakgrund_7
+  - first:
+      213: 8961655145232231887
+    second: Juicyness bakgrund_8
+  - first:
+      213: -7157168193666137808
+    second: Juicyness bakgrund_9
+  - first:
+      213: -5576427959041746943
+    second: Juicyness bakgrund_10
+  - first:
+      213: -999263219691945240
+    second: Juicyness bakgrund_11
+  - first:
+      213: 7928448687422270491
+    second: Juicyness bakgrund_12
+  - first:
+      213: -109507356658040569
+    second: Juicyness bakgrund_13
+  - first:
+      213: 7387679867000335127
+    second: Juicyness bakgrund_14
+  - first:
+      213: 3909535399535229324
+    second: Juicyness bakgrund_15
+  - first:
+      213: -2512596263224256304
+    second: Juicyness bakgrund_16
+  - first:
+      213: 123942618349989709
+    second: Juicyness bakgrund_17
+  - first:
+      213: -406658082379209991
+    second: Juicyness bakgrund_18
+  - first:
+      213: -1061364172347967155
+    second: Juicyness bakgrund_19
+  - first:
+      213: -2416535252730784513
+    second: Juicyness bakgrund_20
+  - first:
+      213: -3460187345882257567
+    second: Juicyness bakgrund_21
+  - first:
+      213: 4063562466127085363
+    second: Juicyness bakgrund_22
+  - first:
+      213: 5074956559467922817
+    second: Juicyness bakgrund_23
+  - first:
+      213: -4964430873795425834
+    second: Juicyness bakgrund_24
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Juicyness bakgrund_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 972
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce910e5ab9326544929f0871ec53894
+      internalID: 114991540812600887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 972
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68206fd1164ebc541bef633d88a3dfe1
+      internalID: -3199517053972329619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 972
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25c6abfffaae6f43a2e30555656449d
+      internalID: 6321057610824242899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 972
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9aa01d550543f4786343a9ba1813f2
+      internalID: -6326281728205269896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b18b1407bd6c94bb71d1ecc1384c48
+      internalID: -1847347061967397469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 810
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eec0b98a2d30c46bf27efcb06edfd2
+      internalID: 3121596210917964430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 810
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c34fcbc07405d48a6b46fd988f7c7c
+      internalID: -3007442405079350202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 810
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e7a1bad22210c4fa96e8d8810c625e
+      internalID: 5653926137437541993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02ae7689facd7043aa3da1838dd8882
+      internalID: 8961655145232231887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 648
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6dbe3b4056943488831cdc9c278abe
+      internalID: -7157168193666137808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 648
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e35eb6e6ba35684796e2817d2f01fb9
+      internalID: -5576427959041746943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 648
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1371b2fb4334174ba3b19e5b9e0a523
+      internalID: -999263219691945240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0d4169396891544b4bb10db09c5373
+      internalID: 7928448687422270491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 486
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50932b1dfb9a2c48a4507eacaa17a13
+      internalID: -109507356658040569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 486
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4db4a1cced5a645b9714a0242f3676
+      internalID: 7387679867000335127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 486
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208570ed799e92c4cb0fed66730cc2e8
+      internalID: 3909535399535229324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6029351affe5e4792678e3c644a1e6
+      internalID: -2512596263224256304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 324
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d58bf544c7b695479fb70004a4b0cd7
+      internalID: 123942618349989709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 324
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585c6a22b6bd18b4990693fdce381e5e
+      internalID: -406658082379209991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 324
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14896a1f70c29064d99bbbcd20fd1d1b
+      internalID: -1061364172347967155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b052ea4b9dfd9445a5e2c291e47fbb3
+      internalID: -2416535252730784513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 162
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c61b1f20919f3a4a8e00a822303e9b9
+      internalID: -3460187345882257567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 162
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569148038780fde4790e10d148daef55
+      internalID: 4063562466127085363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 162
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eb8620e7f1ab2498bddba97b0c632e
+      internalID: 5074956559467922817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juicyness bakgrund_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58e6c56a1899344eb0a53c1226181ff
+      internalID: -4964430873795425834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 84ba61fe5e5ca7f4ba7cb60d0bcd9c71
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
