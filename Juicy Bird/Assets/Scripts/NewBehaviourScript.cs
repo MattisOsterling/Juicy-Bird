@@ -46,16 +46,16 @@ public class NewBehaviourScript : MonoBehaviour
                 int r = Random.Range(0, 2);
                 if (r == 0)
                 {
-                    typ = Instantiate(pipeDown, new Vector3(4, 1.7f, 0), Quaternion.identity);
+                    typ = Instantiate(pipeDown, new Vector3(4, 2f, 0), Quaternion.identity);
                 }
                 if (r == 1)
                 {
                     yta = transform.position.y;
-                    typ = Instantiate(pipeUp, new Vector3(4, 0.85f, 0), Quaternion.identity);
+                    typ = Instantiate(pipeUp, new Vector3(4, 0.6f, 0), Quaternion.identity);
                 }
                 ajj.Add(typ);
 
-                tid = 2;
+                tid = 1.5f;
             }
 
             if (lose != true)
